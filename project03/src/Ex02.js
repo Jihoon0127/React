@@ -1,5 +1,6 @@
 import React from 'react'
 import picSrc from './img/가오나시.jpg'
+import LikeList from './components/Ex02LikeList'
 
 const Ex02 = () => {
 
@@ -16,7 +17,10 @@ const Ex02 = () => {
 
 */
   return (
-    <div>Ex02</div>
+    <div>
+      <img src={picSrc} width='150px'></img>
+      <LikeList/>
+    </div>
   )
 }
 
