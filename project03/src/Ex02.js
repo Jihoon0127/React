@@ -16,6 +16,17 @@ const Ex02 = () => {
         why? public 폴더는 서버와 계속해서 통신 중
 
 */
+
+/* 실습문제!
+
+Step 1) 하트를 클릭 시, 하트가 꽉찬 하트로 변경
+step 2) 하트를 클릭 시, 좋아요 1개로 변경
+STEP 3) 좋아요 상태에서 하트를 클릭 시, 다시 원래대로
+*/
+
+
+}
+
   return (
     <div>
       <img src={picSrc} width='150px'></img>
